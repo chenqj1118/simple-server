@@ -1,0 +1,28 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "简易web服务",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "mocha test/*.@(js)",
+    "serve": "webpack serve --open",
+    "build": "webpack --mode production",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/"
+  },
+  "keywords": [],
+  "author": "chenqj",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+  }
+}
